@@ -5,9 +5,9 @@ if g == 0:
     if a >= 19:
         print("MAN")
     else:
-        print("WOMAN")
+        print("BOY")
 else:
     if a >= 19:
-        print("BOY")
+        print("WOMAN")
     else: 
         print("GIRL")
