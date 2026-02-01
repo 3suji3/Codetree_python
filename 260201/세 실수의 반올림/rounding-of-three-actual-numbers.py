@@ -1,6 +1,7 @@
 a = float(input())
-a = float(input())
+b = float(input())
+c = float(input())
 
-print(f"{a:.2f}")
-print(f"{b:.2f}")
-print(f"{c:.2f}")
+print(f"{a:.3f}")
+print(f"{b:.3f}")
+print(f"{c:.3f}")
