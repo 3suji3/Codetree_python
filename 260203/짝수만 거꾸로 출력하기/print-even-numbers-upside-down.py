@@ -1,7 +1,10 @@
 N = int(input())
-num = 0
+arr = []
+j = list(map(int, input().split()))
 
-for i in range(N):
-    j = int(input())
-    if j % 2 == 0:
-        print(j, end=" ")
+for i in j:
+    if i % 2 == 0:
+        arr.append(i)
+
+for x in arr[::-1]:
+    print(x, end=" ")
