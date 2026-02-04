@@ -1,15 +1,15 @@
 A, B = map(int, input().split())
 
 print(A, end=" ")
-
+val = A
 while True:
     if A % 2 == 0:
-        if A + 3 >= B:
-            break
-        A += 3
-        print(A, end=" ")
+        val += 3
     else:
-        if A * 2 >= B:
-            break
-        A *= 2
-        print(A, end=" ")
+        val *= 2
+    
+    if val > B:
+        break
+    A = val
+    
+    print(A, end=" ")
