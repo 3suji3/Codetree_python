@@ -6,4 +6,4 @@ while True:
     elif N < 25:
         print("Higher")
     else:
-        print("Lowe")
+        print("Lower")
