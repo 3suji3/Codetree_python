@@ -3,7 +3,7 @@ cnt = 0
 
 while True:
     n = int(input())
-    if n > 29:
+    if n > 29 or n < 20:
         res /= cnt
         break
     cnt += 1
