@@ -4,7 +4,7 @@ for i in range(1, 10):
     for j in range(b, a-1, -1):
         if j % 2 == 0:
             if j == 2:
-                print(f"{b} * {a} = {b * a}", end=" ")
+                print(f"{j} * {i} = {i * j}", end=" ")
             else:  
-                print(f"{b} * {a} = {b * a} /", end=" ")
-    prin
+                print(f"{j} * {i} = {i * j} /", end=" ")
+    print()
