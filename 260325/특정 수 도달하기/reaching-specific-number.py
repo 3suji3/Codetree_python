@@ -1,13 +1,12 @@
 nums = list(map(int, input().split()))
 
-result = []
+total = 0
+count = 0
 
 for n in nums:
     if n >= 250:
         break
-    result.append(n)
+    total += n
+    count += 1
 
-total = sum(result)
-avg = total / len(result)
-
-print(total, avg)
+print(total, total / count)
