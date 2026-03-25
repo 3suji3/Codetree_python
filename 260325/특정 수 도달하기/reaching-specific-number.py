@@ -1,4 +1,6 @@
-nums = list(map(int, input().split()))
+nums = []
+while len(nums) < 10:
+    nums += list(map(int, input().split()))
 
 total = 0
 count = 0
