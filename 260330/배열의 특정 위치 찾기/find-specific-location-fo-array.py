@@ -11,8 +11,9 @@ for i in num_list:
         three += i
         t_cnt += 1
 
-if t_cnt == 0:
-    t_cnt = 1
-three = three / t_cnt
+if t_cnt > 0:
+    three = three / t_cnt
+else:
+    three = 0
 
 print(f"{two} {three:.1f}")
