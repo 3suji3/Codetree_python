@@ -4,16 +4,14 @@ two = 0
 three = 0
 t_cnt = 0
 
-for i in num_list:
-    if i % 2 == 0:
-        two += i
-    if i % 3 == 0:
-        three += i
+for idx in range(10):  
+    if (idx + 1) % 2 == 0:   
+        two += num_list[idx]
+        
+    if (idx + 1) % 3 == 0: 
+        three += num_list[idx]
         t_cnt += 1
 
-if t_cnt > 0:
-    three = three / t_cnt
-else:
-    three = 0
+three = three / t_cnt
 
 print(f"{two} {three:.1f}")
